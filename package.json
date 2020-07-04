@@ -1,0 +1,34 @@
+{
+  "name": "contact-manager",
+  "version": "1.0.0",
+  "description": "Typescript Command-Line Contact Management system",
+  "main": "src/contact.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "contact",
+    "typescript",
+    "cli",
+    "command",
+    "ts"
+  ],
+  "author": "Luis Jesus Diaz Manzo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "core-js": "^3.6.5",
+    "inquirer": "^7.3.0",
+    "ora": "^4.0.4",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/commander": "^2.12.2",
+    "@types/core-js": "^2.5.3",
+    "@types/inquirer": "^6.5.0",
+    "@types/ora": "^3.2.0"
+  }
+}
