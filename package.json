@@ -2,9 +2,12 @@
   "name": "contact-manager-typescript",
   "version": "1.0.0",
   "description": "Typescript Command-Line Contact Management system",
-  "main": "src/contact.ts",
+  "main": "dist/contact.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "start": "ts-node src/contact.ts",
+    "watch": "tsc -w"
   },
   "keywords": [
     "contact",
