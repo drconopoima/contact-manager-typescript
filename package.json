@@ -1,5 +1,5 @@
 {
-  "name": "contact-manager",
+  "name": "contact-manager-typescript",
   "version": "1.0.0",
   "description": "Typescript Command-Line Contact Management system",
   "main": "src/contact.ts",
