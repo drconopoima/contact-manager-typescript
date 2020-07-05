@@ -1,3 +1,0 @@
-/*** contact.ts ***/
-import "./polyfills"
-
